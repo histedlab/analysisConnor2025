@@ -1,0 +1,32 @@
+[project]
+channels = ["conda-forge"]
+description = "analysisConnor2025: repo for 2P imaging preprocessing and analysis edit by CP"
+name = "analysisConnor2025"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "<=3.9" 
+numpy = "*"
+pip = "*"
+ipython = "*"
+jupyter = "*"
+caiman = "*"
+jupytext = "*"
+libtiff = "*"
+matplotlib = "*"
+pytest = "*"
+scipy = "*"
+scikit-image = "*"
+scikit-learn = "*"
+pandas = "*"
+seaborn = "*"
+tifffile = "*"
+
+[pypi-dependencies]
+mworksbehavior = { git = "git+https://github.com/histed/mworksbehavior", rev = 'master' }
+pytoolsmh = { git = "git+https://github.com/histed/pytoolsmh", rev = 'master' }
+
+
